@@ -9,6 +9,6 @@ namespace SistemaMVCOracle.Data
             : base(options)
         {
         }
-        public DbSet<Producto> Produtos { get; set; }
+        public DbSet<Producto> Productos { get; set; }
     }
 }   
