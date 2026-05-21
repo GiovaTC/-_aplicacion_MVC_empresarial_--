@@ -1,7 +1,9 @@
 # -_aplicacion_MVC_empresarial_-- :.
 Aplicacion MVC Empresarial:
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f2ad65c6-4f51-4be9-bfb1-05cf02467441" />    
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f2ad65c6-4f51-4be9-bfb1-05cf02467441" />  
+
+<img width="2552" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c3eeb21-18d3-4967-9989-41dd0721fec0" />    
 
 <img width="2554" height="1079" alt="image" src="https://github.com/user-attachments/assets/d6e2a7a2-6759-4e4b-8181-4c54e9fe4519" />    
 
