@@ -11,12 +11,28 @@
   </ItemGroup>
 
   <ItemGroup>
+
+    <!-- Entity Framework Core -->
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
       <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <IncludeAssets>
+        runtime;
+        build;
+        native;
+        contentfiles;
+        analyzers;
+        buildtransitive
+      </IncludeAssets>
     </PackageReference>
+
+    <!-- Oracle Provider EF Core -->
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.50" />
+
+    <!-- Oracle Managed Driver -->
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.5.1" />
+
   </ItemGroup>
 
 </Project>
