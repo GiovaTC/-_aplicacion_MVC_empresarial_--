@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SistemaMVCOracle.Models.Producto>
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+<h1>Lista de Productos</h1>
+
+<a href="/Productos/Create" class="btn">
+    Nuevo Producto
+</a>
+
+<table class="tabla">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.NOMBRE</td>
+                <td>@item.PRECIO</td>
+                <td>@item.STOCK</td>
+                <td>@item.FECHA_REGISTRO</td>
+
+                <td>
+                    <a href="/Productos/Edit/@item.ID">
+                        Editar
+                    </a>
+
+                    <a href="/Productos/Delete/@item.ID">
+                        Eliminar
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

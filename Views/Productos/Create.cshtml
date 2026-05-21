@@ -1,0 +1,22 @@
+﻿@model SistemaMVCOracle.Models.Producto
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+<h1>Nuevo Producto</h1>
+
+<form method="post">
+
+    <label>Nombre</label>
+    <input asp-for="NOMBRE" />
+
+    <label>Precio</label>
+    <input asp-for="PRECIO" />
+
+    <label>Stock</label>
+    <input asp-for="STOCK" />
+
+    <button type="submit">
+        Guardar
+    </button>
+
+</form>
